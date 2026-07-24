@@ -44,7 +44,7 @@ export default function RootLayout({
           <footer className="border-t border-ink-100 mt-16">
             <div className="max-w-6xl mx-auto px-6 py-8 text-sm text-ink-400 flex flex-col sm:flex-row justify-between gap-2">
               <span>© {new Date().getFullYear()} HAHA-SERVICE</span>
-              <span className="font-serif italic">L'élégance, au quotidien.</span>
+              <span className="font-serif italic">Vente d'article de toute sorte.</span>
             </div>
           </footer>
         </CartProvider>
