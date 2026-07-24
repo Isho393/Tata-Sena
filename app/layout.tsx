@@ -5,7 +5,7 @@ import CartIndicator from "@/components/CartIndicator";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Maison Lumen — Boutique",
+  title: "HAHA-SERVICE — Boutique",
   description: "Boutique de vêtements et accessoires choisis.",
 };
 
@@ -21,7 +21,7 @@ export default function RootLayout({
           <header className="sticky top-0 z-30 backdrop-blur bg-ink-50/80 border-b border-ink-100">
             <nav className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
               <Link href="/" className="font-serif text-2xl tracking-wide text-ink-900">
-                Maison Lumen
+                HAHA-SERVICE
               </Link>
               <div className="flex items-center gap-8 text-sm">
                 <Link
@@ -43,7 +43,7 @@ export default function RootLayout({
           <main className="flex-1">{children}</main>
           <footer className="border-t border-ink-100 mt-16">
             <div className="max-w-6xl mx-auto px-6 py-8 text-sm text-ink-400 flex flex-col sm:flex-row justify-between gap-2">
-              <span>© {new Date().getFullYear()} Maison Lumen</span>
+              <span>© {new Date().getFullYear()} HAHA-SERVICE</span>
               <span className="font-serif italic">L'élégance, au quotidien.</span>
             </div>
           </footer>
